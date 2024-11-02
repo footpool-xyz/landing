@@ -1,16 +1,16 @@
 ---
-import Stats from '../components/Stats.astro';
-import Features from '../components/Features.astro';
-import HeroSection from '../components/HeroSection.astro';
-import Layout from '../layouts/Layout.astro';
-import About from '../components/About.astro';
+import Features from "../components/Features.astro";
+import Banner from "../components/Banner.astro";
+import Layout from "../layouts/Layout.astro";
+import About from "../components/About.astro";
+import HowItWorks from "../components/HowItWorks.astro";
 ---
 
 <Layout title="Welcome to FootPool.">
-	<main class="dark space-y-40 mb-40">
-		<HeroSection/>
-		<About/>
-		<Features/>
-		<Stats/>
-	</main>
+  <main class="dark space-y-40 mb-40">
+    <Banner />
+    <About />
+    <Features />
+    <HowItWorks />
+  </main>
 </Layout>
